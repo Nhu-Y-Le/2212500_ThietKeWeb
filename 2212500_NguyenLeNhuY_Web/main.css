@@ -1,0 +1,31 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 1px,solid,yellow;
+}
+div
+{ 
+    margin:10px 50px 20px 0;
+    
+}
+
+.wrapped ul{
+    /* display: flex  ;  */
+    /* flex-wrap: wrap-reverse;  */
+    /* float:; */
+    display: inline-block;
+    height: 60px;
+    list-style-type:none;
+    /* background-color: rgb(40, 40, 163); */
+    padding-top: 14px;
+}
+.wrapped li { 
+    padding: 12px 14px;
+    background-color: rgb(219, 88, 32);
+    color: #ca1d1d;
+    text-decoration: none;
+    text-align:center;
+    float:inline-start;
+}
+
