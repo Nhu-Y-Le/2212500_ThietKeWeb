@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Right
+        {
+            position: absolute;
+            transform: translate(50%, -50%);
+            top: 5%;
+        }
+        .breadcrumbs {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .breadcrumbs li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .breadcrumbs li a {
+            text-decoration:none;
+            color: blue;
+        }
+
+        .breadcrumbs li:before {
+            content: "/";
+            margin-right: 5px;
+        }
+
+        .breadcrumbs li:first-child:before {
+            content: "";
+        }
+    </style>
+</head>
+<body>
+    <div class = "Right">
+        <ul class="breadcrumbs">
+            <li><a href="#">Điện Tử</a></li>
+            <li><a href="#">Máy tính</a></li>
+            <li><a href="#">Laptop</a></li>
+            <li><a href="#">Dell</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
