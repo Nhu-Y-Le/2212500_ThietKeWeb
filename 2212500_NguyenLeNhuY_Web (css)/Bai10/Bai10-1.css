@@ -1,0 +1,16 @@
+blockquote {
+    border: 4px dashed;
+    color: #508C19;
+    padding: 10px;
+    background-color:#B4BDE6;
+    background-clip: content-box;
+}
+p { color: gray; } 
+body {
+    background-color: #333333;
+}
+h1 {
+    color: #00FF00;
+    background-color: #FFFFFF;
+    opacity: .25;
+}
